@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-container"></div>
+    
+    <!-- Initial Stunning View -->
+    <div id="intro-screen" class="screen">
+        <div class="envelope-container" onclick="openLetter()">
+            <div class="glowing-heart">❤️</div>
+            <div class="click-text">Tap the heart</div>
+        </div>
+    </div>
+
+    <!-- Main Apology Content -->
+    <div id="main-screen" class="screen hidden">
+        <div class="glass-card">
+            <h1 class="title fade-in">Until we meet again, my greatest love...</h1>
+            <p class="message fade-in delay-1">My dearest,</p>
+            <p class="message fade-in delay-2">I wanted so deeply to fight for us, but I realized I was fighting alone, because your heart had already found a home with someone else.</p>
+            <p class="message fade-in delay-3">I am genuinely happy that you have found someone who can give you the world. You have always deserved so much better than me.</p>
+            <p class="message fade-in delay-4">I truly hope he treats you beautifully and never gives you a single reason to cry. I am endlessly thankful for the precious memories we created together.</p>
+            <p class="message fade-in delay-5">I will never forget you. I will cherish every moment we shared, and I will love you, always, until the day our paths cross again.</p>
+
+            <button class="forgive-btn fade-in delay-6" onclick="forgiveMe()">
+                <span>I wish you happiness, my love❤️</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
